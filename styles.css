@@ -45,6 +45,11 @@ ul li {
   border-radius: 5px;
 }
 
+.custom-link {
+    text-decoration: none; /* Removes the underline */
+    color: inherit; /* The link will inherit the color from its parent element */
+}
+
 footer {
   text-align: center;
 }
