@@ -1,7 +1,7 @@
 body {
   font-family: "Arial", sans-serif;
-  background-color: #f7f6f6;
-  color: #333;
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text color for better readability on dark background */
   line-height: 1.6;
 }
 
@@ -12,8 +12,8 @@ body {
 }
 
 header {
-  background: #090909;
-  color: #fff;
+  background: #1c1c1c; /* Slightly lighter shade of black for header */
+  color: #fff; /* White text for contrast */
   padding-top: 30px;
   min-height: 30px;
   border-bottom: #2e1f1b 3px solid;
@@ -29,7 +29,7 @@ section {
 }
 
 section h2 {
-  color: #000000;
+  color: #ffffff; /* White color for headings */
 }
 
 ul {
@@ -38,18 +38,19 @@ ul {
 }
 
 ul li {
-  background: #030303;
-  color: #fff;
+  background: #262626; /* Dark grey for list items */
+  color: #fff; /* White text for contrast */
   margin: 5px;
   padding: 10px;
   border-radius: 5px;
 }
 
 .custom-link {
-    text-decoration: none; /* Removes the underline */
-    color: inherit; /* The link will inherit the color from its parent element */
+    text-decoration: none; /* Keeps the underline removed */
+    color: inherit; /* Inherits color from parent, maintaining light text on dark background */
 }
 
 footer {
   text-align: center;
+  color: #e0e0e0; /* Light color text for the footer */
 }
